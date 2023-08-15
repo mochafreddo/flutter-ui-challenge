@@ -3,7 +3,9 @@ import 'package:flutter_ui_challenge/widgets/button.dart';
 import 'package:flutter_ui_challenge/widgets/currency_card.dart';
 
 void main() {
-  runApp(const App());
+  runApp(
+    const App(),
+  );
 }
 
 class App extends StatelessWidget {
@@ -74,9 +76,9 @@ class App extends StatelessWidget {
                 const SizedBox(
                   height: 30,
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Button(
                       text: 'Transfer',
                       bgColor: Color(0xFFF1B33B),
